@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Image Classifier</title>
+
+  <!-- Load TensorFlow.js and MobileNet -->
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.13.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet"></script>
+
+  <!-- Link to external CSS and JS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Image Classifier</h1>
+  <input type="file" id="imageUpload" accept="image/*" />
+  <br><br>
+  <img id="preview" alt="Uploaded preview" />
+  <h2 id="prediction">Prediction: ...</h2>
+
+  <script src="script.js"></script>
+</body>
+</html>
