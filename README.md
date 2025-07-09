@@ -1,2 +1,2 @@
 # Image-Recognition
-Image Recognition using HTML, CSS, Javascript, Tensorflow.js &amp; mobilenet
+Image Recognition using HTML, CSS, Javascript, Tensorflow.js &amp; mobilenet is used
